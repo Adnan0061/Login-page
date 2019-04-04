@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../img/qq.jpg);
+	background-image: no-repeat;
+	background-size: cover; 
+	width: 100%;
+	float: left;
+	/*font-family: Heebo;*/
+	/*height: 1140px;*/
+}
+
+.signup-box {
+	background-color: #000000c2;
+	width: 340px;
+	height: 360px;
+	margin: 100px 35% auto 35%;
+	padding: 35px 0 0 50px;
+	border: 3px solid #46b6d4;
+	border-radius: 10px;
+	/*top: 50%;
+	left: 50%;
+	*/
+	/*transform: translate(50%, 50%);*/
+}
+.signup-box h2 {
+
+	font-family: Heebo;
+	border-bottom: 4px solid #4d8a88;
+	margin: 8px 3px;
+	/*padding: 0 25%;*/
+	float: left;
+	color: #46b6d4;
+}
+
+.form {
+	margin: 25px 0;
+}
+
+.text-box {
+	margin: 5px;
+	background: none;
+	border-bottom: 2px solid #4d8a88;
+	border-left:none; 
+	border-right:none;
+	border-top:none; 
+	color: white;
+	overflow: none;
+	outline: none;
+}
+
+.btn {
+	background: none;
+	margin: 20px 0px 0 5px;
+	padding: 0 0 0 3px;
+	border: 2px solid #4d8a88;
+	width: 50%;
+	color: white;
+}

@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*width: 100%;*/
+	background: url(../img/backlit-chiemsee-dawn-1363876.jpg) no-repeat;
+	background-size: cover;
+	background-position: inherit;
+}
+
+.loginbox {
+	width: 320px;
+	height: 400px;
+	background: #00000075;
+    color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+    padding: 50px 30px;
+
+}
+
+.loginbox h2 {
+	font-size: 40px;
+	font-family: Heebo;
+	border-bottom: 4px solid #96309d;
+	float: left;
+	color: #ea51b9;
+}
+
+.textbox {
+	background: none;
+	border-bottom: 2px solid #96309d; 
+	border-top: none;
+	border-left: none; 
+	border-right: none; 
+	padding: 0  0 3px 3px;
+	text-decoration-color: white;
+	overflow: hidden;
+	outline: none;
+	color: white;
+}
+
+.btn {
+	background: none;
+	margin-top: 10px;
+	border: 2px solid #96309d;
+	width: 173px;
+	color: white;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: #96309d;
+}
+
+.q {
+	margin: 10px 0;
+	/*padding: 20px 0;*/
+	color: #d446ac;
+
+}
